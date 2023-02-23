@@ -1,5 +1,5 @@
 #Connor Johnson
-#Selenium bot to automate the input of data given by an excel sheet to teh datebase: PastPerfect
+#Selenium bot to automate the input of data given by an excel sheet to teh datebase: PastPerfect in the Photos option
 #Good chrome extension to find paths in website: SelectorsHub
 
 from openpyxl import Workbook, load_workbook
