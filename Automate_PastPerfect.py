@@ -35,10 +35,10 @@ driver.maximize_window()
 driver.get("https://mypastperfect.com/Account/Login?ReturnUrl=%2F")     #opens browser to website
 
 username = driver.find_element(By.ID, 'Email')
-username.send_keys("connor.johnson1@marist.edu")                        #finds unsername
+username.send_keys("@marist.edu")                        #finds unsername
 
 password = driver.find_element(By.ID, 'Password')
-password.send_keys("!Lacrosse5647")
+password.send_keys("")
 password.send_keys(Keys.RETURN)                                         #finds password and clicks enter to login
 
                                                                         #use the try-catch for it to wait until it finds the page
